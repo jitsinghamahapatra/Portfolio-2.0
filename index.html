@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of Jit Singha Mahapatra, B.Sc. Computer Science student proficient in Python, HTML, and C/C++.">
+  <meta name="keywords" content="Jit Singha Mahapatra, Computer Science, Portfolio, Python, HTML, C, Developer">
+  <meta name="author" content="Jit Singha Mahapatra">
+  <title>Jit Singha Mahapatra</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="icon" href="/images/my_gibli.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="/videos/technology.mp4" type="video/mp4">
+  </video>
+
+  <header>
+    <h1>Jit Singha Mahapatra</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container" data-aos="fade-up">
+    <img src="/images/my_gibli.jpg" alt="Jit Singha Mahapatra" class="profile" data-aos="zoom-in">
+    <h2>Hi! I'm JIT SINGHA</h2>
+    <h3>I know <span id="typed-text"></span><span class="cursor"></span></h3>
+    <p>I am a B.Sc. Computer Science student skilled in Python, HTML, and C. Passionate about coding and real-world
+      projects.</p>
+    <a href="https://github.com/jitsinghamahapatra" class="button" target="_blank" data-aos="fade-up"
+      data-aos-delay="200">View GitHub</a>
+  </div>
+
+  <section class="about-section container" id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I'm a passionate Computer Science student specializing in innovative solutions through technology. Currently
+      pursuing my B.Sc, I focus on full-stack development and problem-solving architectures.</p>
+    <p>My expertise spans modern web technologies, cloud computing, and UI/UX design. I thrive in transforming complex
+      challenges into elegant digital solutions.</p>
+    <h3 style="margin-top: 30px;">Languages and Tools:</h3>
+    <p>
+
+      <a href="https://www.cprogramming.com/" target="_blank"><img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40"
+          height="40" /></a>
+      <a href="https://www.w3schools.com/cpp/" target="_blank"><img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+          alt="cplusplus" width="40" height="40" /></a>
+      <a href="https://www.w3schools.com/css/" target="_blank"><img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+          alt="css3" width="40" height="40" /></a>
+      <a href="https://www.w3.org/html/" target="_blank"><img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+          alt="html5" width="40" height="40" /></a>
+      <a href="https://www.python.org" target="_blank"><img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"
+          width="40" height="40" /></a>
+      <a href="https://www.adobe.com/products/photoshop.html" target="_blank"><img
+          src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" alt="photoshop"
+          width="40" height="40" /></a>
+      <a href="https://git-scm.com/" target="_blank"><img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git"
+          width="40" height="40" /></a>
+      <a href="https://code.visualstudio.com/" target="_blank"><img
+          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode"
+          width="40" height="40" /></a>
+
+    </p>
+
+  </section>
+
+  <div class="container" id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p>Here are a few projects I've worked on recently:</p>
+    <div class="projects-wrapper">
+      <div class="project-card" data-aos="zoom-in">
+        <h4>Login Page</h4>
+        <img src="/images/loginpageimage.png" alt="Login Page">
+        <a href="https://loginpagebyjit.netlify.app" class="button" target="_blank">Live Project</a>
+      </div>
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <h4>Weather App</h4>
+        <img src="/images/worldweather.png" alt="Weather App">
+        <a href="https://weatherbyjit.netlify.app" class="button" target="_blank">Live Project</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="resume" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>And if you like what you see, feel free to check out my resume for more information using the buttons below!</p>
+    <div class="resume-buttons">
+      <a href="/documents/Jit_Singha_Mahapatra_Resume.pdf" class="button" target="_blank">
+        <i class="fa-solid fa-eye"></i> View Resume
+      </a>
+      <a href="/documents/Jit_Singha_Mahapatra_Resume.pdf" class="button" download>
+        <i class="fa-solid fa-download"></i> Download Resume
+      </a>
+    </div>
+  </div>
+
+
+  <div class="container" id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Got something in mind? I’m just one click away from bringing it to life.</p>
+    <ul class="contact-list">
+      <li><strong> 📧 Email : </strong> <a
+          href="mailto:jitsinghamahapatra2006@gmail.com">jitsinghamahapatra2006@gmail.com</a></li>
+      <li><strong>🏠 Location: </strong><a href="https://maps.app.goo.gl/G9xwi65nhpxABuTQ6" target="_blank"> Simlapal,
+          Bankura, West Bengal,India - 722160</a></li>
+    </ul>
+  </div>
+  <footer>
+    <p>&copy; 2025 Jit Singha Mahapatra | Crafting Digital Excellence</p>
+    <p>
+      <a href="https://github.com/jitsinghamahapatra" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/jit-singha-mahapatra-2571a4325/" target="_blank">LinkedIn</a> |
+      <a href="https://x.com/mahapatra_87063" target="_blank">X</a> |
+      <a href="https://www.facebook.com/jit.singhamahapatra.3" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/mr_jitsmp/?hl=en" target="_blank">Instagram</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      offset: 100,
+      once: true,
+    });
+  </script>
+
+</body>
+
+</html>
